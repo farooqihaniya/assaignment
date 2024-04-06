@@ -15,6 +15,6 @@ public class TestMultiPriority extends Thread
          t2.setPriority(Thread.MIN_PRIORITY); 		
         // call the run() method  
          t1.start(); 
-		 t1.start(); 
+		 t2.start(); 
     }    
 }  
