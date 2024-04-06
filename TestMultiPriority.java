@@ -12,18 +12,15 @@ public class Main{
     public static void main(String args[])  
     {    
         // creating  thread   
-        TestMultiPriority1 m1=new TestMultiPriority1();   
-		TestMultiPriority1 m2=new TestMultiPriority1();
-	    m1.setName("Mythread-1");
-	    m2.setName("Mythread-2");
+        TestMultiPriority1 t1=new TestMultiPriority1();   
+		TestMultiPriority1 t2=new TestMultiPriority1();
+	    t1.setName("Mythread-1");
+	    t2.setName("Mythread-2");
          
-        m1.setPriority(Thread.MIN_PRIORITY); 
-         m2.setPriority(Thread.MAX_PRIORITY); 
+        t1.setPriority(Thread.MIN_PRIORITY); 
+         t2.setPriority(Thread.MAX_PRIORITY); 
 	    
-            m1.start();
-	    m2.start();
-    }
-}
+            
 	    
 
 
