@@ -23,6 +23,10 @@ public class Main{
 	    m2.start();
     }
 }
+
+
+
+
         // call the run() method  
          t1.start(); 
 		 t2.start(); 
